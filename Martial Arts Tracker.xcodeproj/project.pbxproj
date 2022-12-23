@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA03612B295570D200F2D56F /* Martial_Arts_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA03612A295570D200F2D56F /* Martial_Arts_TrackerApp.swift */; };
+		AA03612D295570D200F2D56F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA03612C295570D200F2D56F /* ContentView.swift */; };
+		AA03612F295570D500F2D56F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA03612E295570D500F2D56F /* Assets.xcassets */; };
+		AA036132295570D500F2D56F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA036131295570D500F2D56F /* Preview Assets.xcassets */; };
+		AA03613C295570D500F2D56F /* Martial_Arts_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA03613B295570D500F2D56F /* Martial_Arts_TrackerTests.swift */; };
+		AA036146295570D500F2D56F /* Martial_Arts_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA036145295570D500F2D56F /* Martial_Arts_TrackerUITests.swift */; };
+		AA036148295570D500F2D56F /* Martial_Arts_TrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA036147295570D500F2D56F /* Martial_Arts_TrackerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA036138295570D500F2D56F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA03611F295570D200F2D56F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA036126295570D200F2D56F;
+			remoteInfo = "Martial Arts Tracker";
+		};
+		AA036142295570D500F2D56F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA03611F295570D200F2D56F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA036126295570D200F2D56F;
+			remoteInfo = "Martial Arts Tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA036127295570D200F2D56F /* Martial Arts Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Martial Arts Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA03612A295570D200F2D56F /* Martial_Arts_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Martial_Arts_TrackerApp.swift; sourceTree = "<group>"; };
+		AA03612C295570D200F2D56F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA03612E295570D500F2D56F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA036131295570D500F2D56F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA036137295570D500F2D56F /* Martial Arts TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Martial Arts TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA03613B295570D500F2D56F /* Martial_Arts_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Martial_Arts_TrackerTests.swift; sourceTree = "<group>"; };
+		AA036141295570D500F2D56F /* Martial Arts TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Martial Arts TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA036145295570D500F2D56F /* Martial_Arts_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Martial_Arts_TrackerUITests.swift; sourceTree = "<group>"; };
+		AA036147295570D500F2D56F /* Martial_Arts_TrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Martial_Arts_TrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA036124295570D200F2D56F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA036134295570D500F2D56F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA03613E295570D500F2D56F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA03611E295570D200F2D56F = {
+			isa = PBXGroup;
+			children = (
+				AA036129295570D200F2D56F /* Martial Arts Tracker */,
+				AA03613A295570D500F2D56F /* Martial Arts TrackerTests */,
+				AA036144295570D500F2D56F /* Martial Arts TrackerUITests */,
+				AA036128295570D200F2D56F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA036128295570D200F2D56F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA036127295570D200F2D56F /* Martial Arts Tracker.app */,
+				AA036137295570D500F2D56F /* Martial Arts TrackerTests.xctest */,
+				AA036141295570D500F2D56F /* Martial Arts TrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA036129295570D200F2D56F /* Martial Arts Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				AA03612A295570D200F2D56F /* Martial_Arts_TrackerApp.swift */,
+				AA03612C295570D200F2D56F /* ContentView.swift */,
+				AA03612E295570D500F2D56F /* Assets.xcassets */,
+				AA036130295570D500F2D56F /* Preview Content */,
+			);
+			path = "Martial Arts Tracker";
+			sourceTree = "<group>";
+		};
+		AA036130295570D500F2D56F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AA036131295570D500F2D56F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AA03613A295570D500F2D56F /* Martial Arts TrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA03613B295570D500F2D56F /* Martial_Arts_TrackerTests.swift */,
+			);
+			path = "Martial Arts TrackerTests";
+			sourceTree = "<group>";
+		};
+		AA036144295570D500F2D56F /* Martial Arts TrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA036145295570D500F2D56F /* Martial_Arts_TrackerUITests.swift */,
+				AA036147295570D500F2D56F /* Martial_Arts_TrackerUITestsLaunchTests.swift */,
+			);
+			path = "Martial Arts TrackerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA036126295570D200F2D56F /* Martial Arts Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA03614B295570D500F2D56F /* Build configuration list for PBXNativeTarget "Martial Arts Tracker" */;
+			buildPhases = (
+				AA036123295570D200F2D56F /* Sources */,
+				AA036124295570D200F2D56F /* Frameworks */,
+				AA036125295570D200F2D56F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Martial Arts Tracker";
+			productName = "Martial Arts Tracker";
+			productReference = AA036127295570D200F2D56F /* Martial Arts Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA036136295570D500F2D56F /* Martial Arts TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA03614E295570D500F2D56F /* Build configuration list for PBXNativeTarget "Martial Arts TrackerTests" */;
+			buildPhases = (
+				AA036133295570D500F2D56F /* Sources */,
+				AA036134295570D500F2D56F /* Frameworks */,
+				AA036135295570D500F2D56F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA036139295570D500F2D56F /* PBXTargetDependency */,
+			);
+			name = "Martial Arts TrackerTests";
+			productName = "Martial Arts TrackerTests";
+			productReference = AA036137295570D500F2D56F /* Martial Arts TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA036140295570D500F2D56F /* Martial Arts TrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA036151295570D500F2D56F /* Build configuration list for PBXNativeTarget "Martial Arts TrackerUITests" */;
+			buildPhases = (
+				AA03613D295570D500F2D56F /* Sources */,
+				AA03613E295570D500F2D56F /* Frameworks */,
+				AA03613F295570D500F2D56F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA036143295570D500F2D56F /* PBXTargetDependency */,
+			);
+			name = "Martial Arts TrackerUITests";
+			productName = "Martial Arts TrackerUITests";
+			productReference = AA036141295570D500F2D56F /* Martial Arts TrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA03611F295570D200F2D56F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					AA036126295570D200F2D56F = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					AA036136295570D500F2D56F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = AA036126295570D200F2D56F;
+					};
+					AA036140295570D500F2D56F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = AA036126295570D200F2D56F;
+					};
+				};
+			};
+			buildConfigurationList = AA036122295570D200F2D56F /* Build configuration list for PBXProject "Martial Arts Tracker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA03611E295570D200F2D56F;
+			productRefGroup = AA036128295570D200F2D56F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA036126295570D200F2D56F /* Martial Arts Tracker */,
+				AA036136295570D500F2D56F /* Martial Arts TrackerTests */,
+				AA036140295570D500F2D56F /* Martial Arts TrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA036125295570D200F2D56F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA036132295570D500F2D56F /* Preview Assets.xcassets in Resources */,
+				AA03612F295570D500F2D56F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA036135295570D500F2D56F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA03613F295570D500F2D56F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA036123295570D200F2D56F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA03612D295570D200F2D56F /* ContentView.swift in Sources */,
+				AA03612B295570D200F2D56F /* Martial_Arts_TrackerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA036133295570D500F2D56F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA03613C295570D500F2D56F /* Martial_Arts_TrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA03613D295570D500F2D56F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA036148295570D500F2D56F /* Martial_Arts_TrackerUITestsLaunchTests.swift in Sources */,
+				AA036146295570D500F2D56F /* Martial_Arts_TrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA036139295570D500F2D56F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA036126295570D200F2D56F /* Martial Arts Tracker */;
+			targetProxy = AA036138295570D500F2D56F /* PBXContainerItemProxy */;
+		};
+		AA036143295570D500F2D56F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA036126295570D200F2D56F /* Martial Arts Tracker */;
+			targetProxy = AA036142295570D500F2D56F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA036149295570D500F2D56F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA03614A295570D500F2D56F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA03614C295570D500F2D56F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Martial Arts Tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = MAJ3J2GV69;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "No.Martial-Arts-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA03614D295570D500F2D56F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Martial Arts Tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = MAJ3J2GV69;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "No.Martial-Arts-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA03614F295570D500F2D56F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MAJ3J2GV69;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "No.Martial-Arts-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Martial Arts Tracker.app/Martial Arts Tracker";
+			};
+			name = Debug;
+		};
+		AA036150295570D500F2D56F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MAJ3J2GV69;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "No.Martial-Arts-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Martial Arts Tracker.app/Martial Arts Tracker";
+			};
+			name = Release;
+		};
+		AA036152295570D500F2D56F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MAJ3J2GV69;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "No.Martial-Arts-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Martial Arts Tracker";
+			};
+			name = Debug;
+		};
+		AA036153295570D500F2D56F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MAJ3J2GV69;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "No.Martial-Arts-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Martial Arts Tracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA036122295570D200F2D56F /* Build configuration list for PBXProject "Martial Arts Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA036149295570D500F2D56F /* Debug */,
+				AA03614A295570D500F2D56F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA03614B295570D500F2D56F /* Build configuration list for PBXNativeTarget "Martial Arts Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA03614C295570D500F2D56F /* Debug */,
+				AA03614D295570D500F2D56F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA03614E295570D500F2D56F /* Build configuration list for PBXNativeTarget "Martial Arts TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA03614F295570D500F2D56F /* Debug */,
+				AA036150295570D500F2D56F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA036151295570D500F2D56F /* Build configuration list for PBXNativeTarget "Martial Arts TrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA036152295570D500F2D56F /* Debug */,
+				AA036153295570D500F2D56F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA03611F295570D200F2D56F /* Project object */;
+}
